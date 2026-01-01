@@ -16,35 +16,29 @@
   - Prefect
 
 ### インフラ関連
-[OS]
-- Linux (CentOS, AlmaLinux) 
-
-[Web Server]
-- Apache
-- Nginx
-
-[Application Server]
-- Apache Tomcat
-
-[Database]
-- Oracle
-- PostgreSQL
-
-[IaC]
-- Ansible
-- Terraform
-
-[AWS]
-- EC2
-- ECS
-- API Gateway
-- Lambda
-- Step Functions
-- EventBridge
-
-[GCP]
-- GCS
-- BigQuery
+- OS
+  - Linux (CentOS, AlmaLinux) 
+- Web Server
+  - Apache
+  - Nginx
+- Application Server
+  - Apache Tomcat
+- Database
+  - Oracle
+  - PostgreSQL
+- IaC
+  - Ansible
+  - Terraform
+- AWS
+  - EC2
+  - ECS
+  - API Gateway
+  - Lambda
+  - Step Functions
+  - EventBridge
+- GCP
+  - GCS
+  - BigQuery
 
 ## 職務経歴
 ### 2017/04 - 現在: 株式会社フューチャーショップ
@@ -59,9 +53,15 @@ Ansibleを利用してリプレイスした。<br>
 ECパッケージにGoogle Analyticsと同様の機能を実装した。<br>
 オンプレ側からクラウド側（AWS）にデータをアップロードする機能を開発、<br>
 Javaがメイン開発言語である会社の中でPythonを導入することができた。
-3. PostgreSQL Streaming Replicationの導入
-d
+3. PostgreSQL Streaming Replicationの導入<br>
+DBサーバ1台で運用していた際、そこがSPOFとなっていたため、<br>
+一部のDBサーバに対しStreaming Repliocationを導入、<br>
+それによりDB起因となる障害を減らすことができた。
 4. 商品管理バッチの再構築
+約20年前に作成された商品登録のバッチを、<br>
+spring-bootとsprin-batchを利用して再構築。<br>
+それにより、要件の追加や新しいCSVを増やす際に、<br>
+効率よく開発ができるようにした。
 
 ### 2015/04 - 2017/03: 株式会社シルバーエッグテクノロジー
 #### 職務内容: レコメンドシステムの開発および運用
