@@ -4,41 +4,17 @@
 - Name: 佐々木　智也
 
 ## スキル
-### プログラム言語
-- Java
-  - spring-boot
-  - spring-batch
-- Python
-  - FastAPI
-  - Bottle
-  - Gevent
-  - Luigi
-  - Prefect
-
-### インフラ関連
-- OS
-  - Linux (CentOS, AlmaLinux) 
-- Web Server
-  - Apache
-  - Nginx
-- Application Server
-  - Apache Tomcat
-- Database
-  - Oracle
-  - PostgreSQL
-- IaC
-  - Ansible
-  - Terraform
-- AWS
-  - EC2
-  - ECS
-  - API Gateway
-  - Lambda
-  - Step Functions
-  - EventBridge
-- GCP
-  - GCS
-  - BigQuery
+| 分類 | 内容 |
+| :--- | :--- |
+| 言語 | Java, Python
+| framework | SpringFramework(spring-boot, spring-batch)<br>Prefect, Luigi, FastAPI
+| OS | Linux(CentOS, AlmaLinux)
+| DB | Oracle, PostgreSQL
+| Web Server | Apache, Nginx
+| Application Server | Tomcat
+| IaC | Ansible, Terraform
+| AWS | EC2, ECS, Lambda, API Gateway
+| GCP | BigQuery
 
 ## 職務経歴
 ### 2017/04 - 現在: 株式会社フューチャーショップ
